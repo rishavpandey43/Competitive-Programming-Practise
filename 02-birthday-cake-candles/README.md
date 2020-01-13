@@ -4,7 +4,7 @@ You are in charge of the cake for your niece's birthday and have decided the cak
 
 For example, if your niece is turning **4** years old, and the cake will have **4** candles of height **4, 4, 1, 3**, she will be able to blow out 2 candles successfully, since the tallest candles are of height **4** and there are **2** such candles.
 
-### Function Description
+## Function Description
 
 Complete the function birthdayCakeCandles in the editor below. It must return an integer representing the number of candles she can blow out.
 
@@ -12,32 +12,32 @@ birthdayCakeCandles has the following parameter(s):
 
 - ar: an array of integers representing candle heights
 
-### Input Format
+## Input Format
 
 The first line contains a single integer, **n**, denoting the number of candles on the cake.
-<br>
+
 The second line contains **n** space-separated integers, where each integer **i** describes the height of candle **i**.
 
-### Constraints
+## Constraints
 
 **1 <= n <= 10 <sup>5</sup>**
-<br>
+
 **1 <= ar[i] <= 10 <sup>7</sup>**
 
-### Output Format
+## Output Format
 
 Return the number of candles that can be blown out on a new line.
 
-### Sample Input
+## Sample Input
 
 4
-<br>
+
 3 2 1 3
 
-### Sample Output
+## Sample Output
 
 2
 
-### Explanation
+## Explanation
 
 We have one candle of height 1, one candle of height 2, and two candles of height 3. Your niece only blows out the tallest candles, meaning the candles where **height = 3**. Because there are **2** such candles, we print **2** on a new line.
