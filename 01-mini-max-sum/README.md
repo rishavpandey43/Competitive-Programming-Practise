@@ -45,3 +45,5 @@ Our initial numbers are **1, 2, 3, 4, and 5**. We can calculate the following su
 5. If we sum everything except **5**,our sum is **1 + 2 + 3 + 4 = 10**.
 
 - Hints: Beware of integer overflow! Use 64-bit Integer.
+
+[source of question](https://www.hackerrank.com/challenges/mini-max-sum)

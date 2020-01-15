@@ -41,3 +41,5 @@ Return the number of candles that can be blown out on a new line.
 ## Explanation
 
 We have one candle of height 1, one candle of height 2, and two candles of height 3. Your niece only blows out the tallest candles, meaning the candles where **height = 3**. Because there are **2** such candles, we print **2** on a new line.
+
+[source of question](https://www.hackerrank.com/challenges/birthday-cake-candles)

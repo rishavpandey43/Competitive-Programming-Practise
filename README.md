@@ -21,3 +21,7 @@ Below are the list of various questions solved by me:-
 ## 13/01/2020
 
 - Q6. Grading Students (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/06-grading-students) for more detail)
+
+## 15/01/2020
+
+- Q7. Discount in shop (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/07-discount-in-a-shop) for more detail)

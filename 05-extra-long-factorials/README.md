@@ -2,11 +2,11 @@
 
 The factorial of the integer _n_, written _n!_, is defined as:
 
-n! = n _ (n -1) _ (n - 2) _ ... _ 2\*1
+n! = n \* (n -1) \* (n - 2) \* ... \* 2 \* 1
 
 Calculate and print the factorial of a given integer.
 
-For example, if _n = 10_, we calculate 10\*9 _ 8 _ 7 _ 6 _ 5 _ 4 _ 3 _ 2 _ 1 and get 3628800.
+For example, if _n = 10_, we calculate 10 \* 9 \* 8 \* 7 \* 6 \* 5 \* 4 \* 3 \* 2 \* 1 and get 3628800.
 
 ## Function Description
 
@@ -42,4 +42,6 @@ Print the factorial of _n_.
 
 ## Explanation
 
-25! = 25 _ 24 _ 23 _ ... _ 3 _ 2 _ 1
+25! = 25 \* 24 \* 23 \* ... \* 3 \* 21
+
+[source of question](https://www.hackerrank.com/challenges/extra-long-factorials)

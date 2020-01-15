@@ -31,3 +31,5 @@ Convert and print the given time in 24-hour format, where 00 <= hh <= 23.
 ## Sample Output
 
 19:05:45
+
+[source of question](https://www.hackerrank.com/challenges/time-conversion)
