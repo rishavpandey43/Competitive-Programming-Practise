@@ -25,3 +25,9 @@ Below are the list of various questions solved by me:-
 ## 15/01/2020
 
 - Q7. Discount in shop (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/07-discount-in-a-shop) for more detail)
+
+## 17/01/2020
+
+- Q8. Apple and Orange (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/08-apple-and-orange) for more detail)
+
+- Q9. Kangaroo (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/09-kangaroo) for more detail)
