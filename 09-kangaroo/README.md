@@ -40,7 +40,7 @@ Print YES if they can land on the same location at the same time; otherwise, pri
 
 0 3 4 2
 
-## Sample Output 1
+## Sample Output 0
 
 YES
 
