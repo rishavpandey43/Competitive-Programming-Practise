@@ -35,3 +35,7 @@ Below are the list of various questions solved by me:-
 ## 20/01/2020
 
 - Q10. Migratory Bird (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/10-migratory-birds) for more detail)
+
+## 21/01/2020
+
+- Q11. Birthday Chocolate (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/11-birthday-chocolate) for more detail)
