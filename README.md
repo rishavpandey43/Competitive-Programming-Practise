@@ -39,3 +39,11 @@ Below are the list of various questions solved by me:-
 ## 21/01/2020
 
 - Q11. Birthday Chocolate (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/11-birthday-chocolate) for more detail)
+
+## 24/01/2020
+
+- Q12. Birthday Chocolate (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/12-save-the-prisoner) for more detail)
+
+## 25/01/2020
+
+- Q13. Circular Array Rotation (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/13-circular-array-rotation) for more detail)
