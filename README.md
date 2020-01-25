@@ -47,3 +47,5 @@ Below are the list of various questions solved by me:-
 ## 25/01/2020
 
 - Q13. Circular Array Rotation (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/13-circular-array-rotation) for more detail)
+
+- Q14. The Time In Words (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/14-the-time-in-words) for more detail)
