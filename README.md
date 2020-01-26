@@ -49,3 +49,9 @@ Below are the list of various questions solved by me:-
 - Q13. Circular Array Rotation (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/13-circular-array-rotation) for more detail)
 
 - Q14. The Time In Words (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/14-the-time-in-words) for more detail)
+
+## 26/01/2020
+
+- Q15. Breaking the Records (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/15-breaking-the-records) for more detail)
+
+- Q16. Divisible Sum Pairs (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/16-divisible-sum-pairs) for more detail)
