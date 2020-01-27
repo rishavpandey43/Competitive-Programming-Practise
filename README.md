@@ -42,7 +42,7 @@ Below are the list of various questions solved by me:-
 
 ## 24/01/2020
 
-- Q12. Birthday Chocolate (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/12-save-the-prisoner) for more detail)
+- Q12. Save The Prisoner (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/12-save-the-prisoner) for more detail)
 
 ## 25/01/2020
 
@@ -52,6 +52,10 @@ Below are the list of various questions solved by me:-
 
 ## 26/01/2020
 
-- Q15. Breaking the Records (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/15-breaking-the-records) for more detail)
+- Q15. Breaking The Records (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/15-breaking-the-records) for more detail)
 
 - Q16. Divisible Sum Pairs (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/16-divisible-sum-pairs) for more detail)
+
+## 27/01/2020
+
+- Q17. Day Of The Programmer (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/17-day-of-the-programmer) for more detail)
