@@ -1,32 +1,28 @@
-# Breaking the Records
+# Day of the Programmer
 
-Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for most points and least points in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
+Marie invented a Time Machine and wants to test it by time-traveling to visit Russia on the Day of the Programmer (the **_256<sup>th</sup>_** day of the year) during a year in the inclusive range from **_1700_** to **_2700_**.
 
-For example, assume her scores for the season are represented in the array **_scores = [12, 24, 10, 24]_**. Scores are in the same order as the games played. She would tabulate her results as follows:
+From **_1700_** to **_1917_**, Russia's official calendar was the Julian calendar; since **_1919_** they used the Gregorian calendar system. The transition from the Julian to Gregorian calendar system occurred in , when the next day after January **_31<sup>st</sup>_** was February **_14<sup>th</sup>_**. This means that in **_1918_**, February **_14<sup>th</sup>_** was the **_32<sup>nd</sup>_** day of the year in Russia.
 
-Game - 0 1 2 3
+In both calendar systems, February is the only month with a variable amount of days; it has **_29_** days during a leap year, and **_28_** days during all other years. In the Julian calendar, leap years are divisible by **_4_**; in the Gregorian calendar, leap years are either of the following:
 
-Score - 12 24 10 24
+- Divisible by **_400_**.
+- Divisible by **_4_** and not divisible by **_100_**.
+  Given a year, **_y_**, find the date of the **_256<sup>th</sup>_** day of that year according to the official Russian calendar during that year. Then print it in the format dd.mm.yyyy, where dd is the two-digit day, mm is the two-digit month, and yyyy is **_y_**.
 
-Maximum - 12 24 24 24
-
-Minimum - 12 12 10 10
-
-Given Maria's scores for a season, find and print the number of times she breaks her records for most and least points scored during the season.
+For example, the given . **_year = 1984. 1984_** is divisible by **_4_**, so it is a leap year. The **_256<sup>th</sup>_** day of a leap year after **_1918_** is September 12, so the answer is **_12.09.1984_**.
 
 ## Function Description
 
-Complete the breakingRecords function in the editor below. It must return an integer array containing the numbers of times she broke her records. Index **_0_** is for breaking most points records, and index **_1_** is for breaking least points records.
+Complete the dayOfProgrammer function in the editor below. It should return a string representing the date of the **_256<sup>th</sup>_** day of the year given.
 
-breakingRecords has the following parameter(s):
+dayOfProgrammer has the following parameter(s):
 
-- scores: an array of integers
+- year: an integer
 
 ## Input Format
 
-The first line contains an integer **_n_**, the number of games.
-
-The second line contains **_n_** space-separated integers describing the respective values of **_score 0, score 1, ... , score n-1_**.
+A single integer denoting year **_y_**.
 
 ## Constraints
 
@@ -35,54 +31,30 @@ The second line contains **_n_** space-separated integers describing the respect
 
 ## Output Format
 
-Print two space-separated integers describing the respective numbers of times her best (highest) score increased and her worst (lowest) score decreased.
+Print the full date of Day of the Programmer during year **_y_** in the format dd.mm.yyyy, where dd is the two-digit day, mm is the two-digit month, and yyyy is **_y_**.
 
 ## Sample Input 0
 
-9
-
-10 5 20 20 4 5 2 25 1
+2017
 
 ## Sample Output 0
 
-2 4
+13.09.2017
 
 ## Explanation 0
 
-The Table below depicts the number of times Maria broke her best and worst records throughout the season:
-
-Game - 0 1 2 3 4 5 6 7 8
-
-Score - 10 5 20 20 4 5 2 25 1
-
-Maximum - 10 10 20 20 20 20 20 25 25
-
-Minimum - 10 5 5 5 4 4 2 2 1
-
-She broke her best record twice (after games **_2_** and **_7_** ) and her worst record four times (after games **_1_**, **_4_**, **_6_**, and **_8_**), so we print **_2 4_** as our answer. Note that she did not break her record for best score during game **_3_**, as her score during that game was not strictly greater than her best record at the time.
+In the year **_y = 2017_**, January has **_31_** days, February has **_28_** days, March has **_31_** days, April has **_30_** days, May has **_31_** days, June has **_30_** days, July has **_31_** days, and August has **_31_** days. When we sum the total number of days in the first eight months, we get **_31 + 28 + 31 + 30 + 31 + 30 +31 + 31 = 243_**. Day of the Programmer is the **_256<sup>th</sup>_** day, so then calculate **_256 - 243 = 13_** to determine that it falls on day **_13_** of the **_9<sup>th</sup>_** month (September). We then print the full date in the specified format, which is 13.09.2017.
 
 ## Sample Input 1
 
-10
-
-3 4 21 36 10 28 35 5 24 42
+2016
 
 ## Sample Output 1
 
-4 0
+12.09.2016
 
 ## Explanation 1
 
-The Table below depicts the number of times Maria broke her best and worst records throughout the season:
+Year **_Y = 2018_** is a leap year, so February has **_29_** days but all the other months have the same number of days as in **_2017_**. When we sum the total number of days in the first eight months, we get **_31 + 29 + 31 + 30 + 31 + 30 +31 + 31 = 244_**.Day of the Programmer is the **_256<sup>th</sup>_** day, so then calculate **_256 - 244 = 12_** to determine that it falls on day **_12_** of the **_9<sup>th</sup>_** month (September). We then print the full date in the specified format, which is 12.09.2018.
 
-Game - 0 1 2 3 4 5 6 7 8 9
-
-Score - 3 4 21 36 10 28 35 5 24 42
-
-Maximum - 3 4 21 36 36 36 36 36 36 42
-
-Minimum - 3 3 3 3 3 3 3 3 3 3
-
-She broke her best record four times (after games **_1_**, **_2_**, **_3_**, and **_9_**) and her worst record zero times (no score during the season was lower than the one she earned during her first game), so we print **4 0** as our answer.
-
-[source of question](https://www.hackerrank.com/challenges/the-time-in-words/problem)
+[source of question](https://www.hackerrank.com/challenges/day-of-the-programmer/problem)

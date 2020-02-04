@@ -59,3 +59,7 @@ Below are the list of various questions solved by me:-
 ## 27/01/2020
 
 - Q17. Day Of The Programmer (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/17-day-of-the-programmer) for more detail)
+
+## 04/02/2020
+
+- Q18. Encoding Message (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/18-encoding-message) for more detail)

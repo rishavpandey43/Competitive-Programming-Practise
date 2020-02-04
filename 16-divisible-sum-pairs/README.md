@@ -1,88 +1,52 @@
-# Breaking the Records
+# Divisible Sum Pairs
 
-Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for most points and least points in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
+You are given an array of **_n_** integers, **_ar = [ar[0], ar[1], ... ar[n - 1]]_**, and a positive integer, **_k_**. Find and print the number of **_(i, j)_** pairs where **_i < j_** and **_ar[i]_** + **_ar[j]_** is divisible by **_k_**.
 
-For example, assume her scores for the season are represented in the array **_scores = [12, 24, 10, 24]_**. Scores are in the same order as the games played. She would tabulate her results as follows:
-
-Game - 0 1 2 3
-
-Score - 12 24 10 24
-
-Maximum - 12 24 24 24
-
-Minimum - 12 12 10 10
-
-Given Maria's scores for a season, find and print the number of times she breaks her records for most and least points scored during the season.
+For example, **_ar = [1, 2, 3, 4, 5, 6]_** and **_k = 5_** . Our three pairs meeting the criteria are **_[1, 4], [2, 3]_** and **_[4, 6]_** .
 
 ## Function Description
 
-Complete the breakingRecords function in the editor below. It must return an integer array containing the numbers of times she broke her records. Index **_0_** is for breaking most points records, and index **_1_** is for breaking least points records.
+Complete the divisibleSumPairs function in the editor below. It should return the integer count of pairs meeting the criteria.
 
-breakingRecords has the following parameter(s):
+divisibleSumPairs has the following parameter(s):
 
-- scores: an array of integers
+- n: the integer length of array **_ar_**
+- ar: an array of integers
+- k: the integer to divide the pair sum by
 
 ## Input Format
 
-The first line contains an integer **_n_**, the number of games.
-
-The second line contains **_n_** space-separated integers describing the respective values of **_score 0, score 1, ... , score n-1_**.
+The first line contains **_2_** space-separated integers, **_n_** and **_k_** .
+The second line contains **_n_** space-separated integers describing the values of **_ar[ar[0], ar[1], ... ar[n - 1]]_**.
 
 ## Constraints
 
-- 1 <= n <= 1000
-- 0 <= scores[i] < 10<sup>8</sup>
+- 2 <= n <= 100
+- 1 <= k <= 100
+- 1 <= ar[i] < 100
 
 ## Output Format
 
-Print two space-separated integers describing the respective numbers of times her best (highest) score increased and her worst (lowest) score decreased.
+Print the number of **_(i, j)_** pairs where **_i < j_** and **_a[i]_** + **_a[j]_** is evenly divisible by **_k_**.
 
 ## Sample Input 0
 
-9
+6 3
 
-10 5 20 20 4 5 2 25 1
+1 3 2 6 1 2
 
 ## Sample Output 0
 
-2 4
+5
 
 ## Explanation 0
 
-The Table below depicts the number of times Maria broke her best and worst records throughout the season:
+Here are the **_5_** valid pairs when **_k = 3_**:
 
-Game - 0 1 2 3 4 5 6 7 8
-
-Score - 10 5 20 20 4 5 2 25 1
-
-Maximum - 10 10 20 20 20 20 20 25 25
-
-Minimum - 10 5 5 5 4 4 2 2 1
-
-She broke her best record twice (after games **_2_** and **_7_** ) and her worst record four times (after games **_1_**, **_4_**, **_6_**, and **_8_**), so we print **_2 4_** as our answer. Note that she did not break her record for best score during game **_3_**, as her score during that game was not strictly greater than her best record at the time.
-
-## Sample Input 1
-
-10
-
-3 4 21 36 10 28 35 5 24 42
-
-## Sample Output 1
-
-4 0
-
-## Explanation 1
-
-The Table below depicts the number of times Maria broke her best and worst records throughout the season:
-
-Game - 0 1 2 3 4 5 6 7 8 9
-
-Score - 3 4 21 36 10 28 35 5 24 42
-
-Maximum - 3 4 21 36 36 36 36 36 36 42
-
-Minimum - 3 3 3 3 3 3 3 3 3 3
-
-She broke her best record four times (after games **_1_**, **_2_**, **_3_**, and **_9_**) and her worst record zero times (no score during the season was lower than the one she earned during her first game), so we print **4 0** as our answer.
+- **_(0, 2) -> ar[0] + ar[2] = 1 + 2 = 3_**
+- **_(0, 5) -> ar[0] + ar[5] = 1 + 2 = 3_**
+- **_(1, 3) -> ar[1] + ar[3] = 3 + 6 = 9_**
+- **_(2, 4) -> ar[2] + ar[4] = 2 + 1 = 3_**
+- **_(4, 5) -> ar[4] + ar[5] = 1 + 2 = 3_**
 
 [source of question](https://www.hackerrank.com/challenges/the-time-in-words/problem)
