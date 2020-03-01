@@ -67,3 +67,7 @@ Below are the list of various questions solved by me:-
 ## 28/02/2020
 
 - Q19. Chef And Glove (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/19-chef-and-glove) for more detail)
+
+## 01/03/2020
+
+- Q20. Movie Weekend (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/20-movie-weekend) for more detail)
