@@ -22,7 +22,7 @@ For each test case, output a single integer **_i_** denoting the index of the mo
 
 - **_1 ≤ T ≤ 5_**
 - **_1 ≤ n ≤ 100_**
-- **_1 ≤ Li, Ri ≤ 100_**
+- **_1 ≤ L<sub>i</sub>, R<sub>i</sub> ≤ 100_**
 
 ## Sample Input 0
 
