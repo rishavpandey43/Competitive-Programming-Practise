@@ -71,3 +71,7 @@ Below are the list of various questions solved by me:-
 ## 01/03/2020
 
 - Q20. Movie Weekend (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/20-movie-weekend) for more detail)
+
+## 02/03/2020
+
+- Q21. Multiple Choice Exam (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/21-multiple-choice-exam) for more detail)
