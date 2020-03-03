@@ -75,3 +75,7 @@ Below are the list of various questions solved by me:-
 ## 02/03/2020
 
 - Q21. Multiple Choice Exam (click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/21-multiple-choice-exam) for more detail)
+
+## 03/03/2020
+
+- Q22. From Heaven To Earth(click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/22-from-heaven-to-earth) for more detail)
