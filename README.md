@@ -79,3 +79,7 @@ Below are the list of various questions solved by me:-
 ## 03/03/2020
 
 - Q22. From Heaven To Earth(click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/22-from-heaven-to-earth) for more detail)
+
+## 04/03/2020
+
+- Q22. Lazy Jem(click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/23-lazy-jem) for more detail)
