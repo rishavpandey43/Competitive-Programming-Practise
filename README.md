@@ -82,4 +82,8 @@ Below are the list of various questions solved by me:-
 
 ## 04/03/2020
 
-- Q22. Lazy Jem(click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/23-lazy-jem) for more detail)
+- Q23. Lazy Jem(click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/23-lazy-jem) for more detail)
+
+## 12/03/2020
+
+- Q24. Testing Robot(click [here](https://github.com/rishavpandey43/Competitive-Programming-Practise/tree/master/24-testing-robot) for more detail)
